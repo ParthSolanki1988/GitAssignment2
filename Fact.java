@@ -1,13 +1,13 @@
 public class Fact {
-
+    //find fact using while loop
     public static void main(String[] args) {
 
-        int num = 10;
+        int num = 5, i = 1;
         long factorial = 1;
-        for(int i = 1; i <= num; ++i)
+        while(i <= num)
         {
-            // factorial = factorial * i;
             factorial *= i;
+            i++;
         }
         System.out.printf("Factorial of %d = %d", num, factorial);
     }
